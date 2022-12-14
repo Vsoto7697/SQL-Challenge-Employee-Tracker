@@ -1,5 +1,5 @@
 -- Adds department names to a table of departments
-INSERT INTO department
+INSERT INTO departments
   (name)
 VALUES
   ('Engineering'),
@@ -8,7 +8,7 @@ VALUES
   ('Legal');
 
 -- Adds employee roles to the role table
-INSERT INTO role
+INSERT INTO roles
   (title, salary, department_id)
 VALUES
   ('Software Engineer', 120000, 1),
@@ -17,7 +17,7 @@ VALUES
   ('Lawyer', 100000, 4);
 
 -- Adds employee data to the employee tab
-INSERT INTO employee
+INSERT INTO employees
   (first_name, last_name, role_id, manager_id)
 VALUES
   ('Victor', 'Soto', 1, 4),
