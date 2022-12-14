@@ -48,7 +48,7 @@ var employee_tracker = function () {
                 // Adding a Department
                 type: 'input',
                 name: 'department',
-                message: 'What is the name of the department?',
+                message: 'What is the name of the dep32artment?',
                 validate: departmentInput => {
                     if (departmentInput) {
                         return true;
