@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Vsoto7697/SQL-Challenge-Employee-Tracker/issues"
   },
-  "homepage": "https://github.com/Vsoto7697/SQL-Challenge-Employee-Tracker#readme"
+  "homepage": "https://github.com/Vsoto7697/SQL-Challenge-Employee-Tracker#readme",
+  "dependencies": {
+    "inquirer": "^9.1.4"
+  }
 }
